@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="login-container">
+
+        <form id="formLogin" class="formulario-login">
+
+            <h2>Entre na sua conta</h2>
+            <p class="descricao">
+                Faça login para acessar conteúdos exclusivos.
+            </p>
+
+            <div class="campo">
+                <input type="email" 
+                       name="email" 
+                       placeholder="Digite seu e-mail" 
+                       required>
+            </div>
+
+            <div class="campo">
+                <input type="password" 
+                       name="senha" 
+                       placeholder="Digite sua senha" 
+                       required>
+            </div>
+
+            <div class="configuracoes">
+                <label class="lembrar">
+                    <input type="checkbox">
+                    Lembrar acesso
+                </label>
+
+                <a href="#" class="recuperar">
+                    Recuperar senha
+                </a>
+            </div>
+
+            <button type="submit" class="btn-login">
+                Entrar
+            </button>
+
+            <span id="mensagemErro" class="mensagem-erro"></span>
+
+        </form>
+
+    </section>
+
+    <script src="login.js"></script>
+
+</body>
+</html>
